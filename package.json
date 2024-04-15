@@ -21,9 +21,13 @@
   },
   "homepage": "https://github.com/LeDuy20/nodejs-basic#readme",
   "dependencies": {
+    "api-query-params": "5.4.0",
     "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "express": "^4.18.3",
+    "express-fileupload": "1.4.0",
+    "mongoose": "6.7.2",
+    "mongoose-delete": "0.5.4",
     "mysql2": "^3.9.2"
   },
   "devDependencies": {

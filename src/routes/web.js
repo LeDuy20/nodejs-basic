@@ -8,6 +8,7 @@ const {
   getUpdateUser,
   postUpdateUser,
   postDeleteUser,
+  postHandleRemove
 } = require("../controllers/homeController");
 
 //khai bao router
@@ -17,5 +18,6 @@ router.get("/update/:id", getUpdateUser);
 router.post("/create-user", postCreateUser);
 router.post("/update-user", postUpdateUser);
 router.post("/delete-user/:id", postDeleteUser);
+router.post("/delete-user", postHandleRemove)
 
 module.exports = router;
